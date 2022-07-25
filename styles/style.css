@@ -15,33 +15,43 @@ header styles and rules
   border-radius: 30px;
   margin: auto;
   width: 80%;
-  margin-top:40px;
+  margin-top: 40px;
 }
-.header_info{
-    width: 450px;
-    margin-left: 20px;
-    padding-left: 40px;
-    padding-top: 20px;
+.header_info {
+  width: 450px;
+  margin-left: 20px;
+  padding-left: 40px;
+  padding-top: 20px;
 }
-#heading_font{
-    font-size: 50px;
-    color:#FFFFFF;
-    margin-bottom: 0;  
-    
+#heading_font {
+  font-size: 50px;
+  color: #ffffff;
+  margin-bottom: 0;
+  line-height: 1;
 }
-#heading_paragraph{
-    color:#FFFFFF;
-    font-size:16px;
-    margin-top: 0;
+#heading_paragraph {
+  color: #ffffff;
+  font-size: 16px;
+  padding-bottom: 10px;
 }
-.header_img{
-    width: 400px;
-    padding-top: 30px;
-    margin-right: 20px;
+.header_img {
+  width: 400px;
+  padding-top: 30px;
+  margin-right: 20px;
 }
-header_info, a, i{
-    color: white;
-    width:30px;
-    background-color: #DD0000;
-    text-decoration: none;
+header_info,
+a,
+i {
+  width: 30px;
+  padding: 15px;
+  color: white;
+  background-color: #dd0000;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 25px;
+}
+.fa-solid {
+  padding: 0;
+  font-size: 18px;
 }
