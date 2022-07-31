@@ -9,19 +9,22 @@ body {
 header styles and rules
 ***********************
 */
-.parent_heading {
+header {
+  display: flex;
+  justify-content: center;
+}
+.header-container {
   display: flex;
   background-color: #161616;
   border-radius: 30px;
-  margin: auto;
-  width: 80%;
   margin-top: 40px;
+  width: 1100px;
 }
-.header_info {
-  width: 450px;
-  margin-left: 20px;
-  padding-left: 40px;
-  padding-top: 20px;
+.header-info {
+  width: 531px;
+  margin-left: 50px;
+  padding: 30px;
+  margin-top: 60px;
 }
 #heading_font {
   font-size: 50px;
@@ -32,24 +35,24 @@ header styles and rules
 #heading_paragraph {
   color: #ffffff;
   font-size: 16px;
-  padding-bottom: 10px;
 }
-.header_img {
-  width: 400px;
-  padding-top: 30px;
-  margin-right: 20px;
+.header-container img {
+  width: 581px;
+  margin-top: 30px;
+  margin-right: 79px;
 }
 header_info,
 a,
 i {
   width: 30px;
-  padding: 15px;
   color: white;
   background-color: #dd0000;
   text-decoration: none;
   text-align: center;
   border-radius: 5px;
-  font-size: 25px;
+  font-size: 20px;
+  padding: 7px;
+  margin-top: 20px;
 }
 .fa-solid {
   padding: 0;
